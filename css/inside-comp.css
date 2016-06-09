@@ -1,0 +1,137 @@
+div#bottom-div {
+    padding-bottom: 10px;
+    border-top: none;
+    border-bottom: 1px solid #FFF;
+}
+
+p.tile-bottom-p {
+    color: #646464!important;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px!important;
+    margin: 0px 0px 0px 0px!important;
+    font-weight: 300;
+    clear: both;
+    width: 100%!important;
+}
+.managed-content {
+    border-bottom: none;
+}
+
+.last-year-TrOOP,
+.last-year-TrOOP2 {
+    margin-top: 10px;
+    margin-left: 0px;
+    background-image: url(../images/leftArrow.png);
+    background-size: 17px 17px;
+    background-position: left 3px top 0px;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 30px;
+    color: #cc0000;
+    text-decoration: underline;
+}
+.last-year-TrOOP:hover {
+    cursor: pointer;
+}
+.last-year-hide:hover {
+    cursor: pointer;
+}
+.last-year-hide,
+.last-year-hide2 {
+    margin-top: 10px;
+    margin-left: 0px;
+    background-image: url(../images/downArrow.png);
+    background-size: 17px 17px;
+    background-position: left 0px top 0px;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 30px;
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+
+
+.last-year-table,
+.last-year-table2 {
+    border: none!important;
+}
+
+.rTableCell,
+.rTableHead {
+    min-width: 94px;
+}
+
+
+/*.last-table {
+    border-bottom: none!important;
+}*/
+
+div#main p:last-child {
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 15px;
+    font-weight: 300;
+    clear: both;
+}
+
+div#main2 p:last-child {
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 15px;
+    font-weight: 300;
+    clear: both;
+}
+
+
+.notVisible {
+    visibility: hidden;
+}
+
+.section-filter {
+    padding-left: 0px;
+}
+
+.section-filter {
+    max-width: 960px;
+    margin: 20px auto 0px auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 65px;
+}
+
+div#bottom-div {
+    margin-top: 0px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+
+div#bottom-div h2 {
+    margin-top: 0px;
+}
+
+.managed-content {
+    padding-bottom: 15px;
+}
+@media (max-width: 959px){
+
+
+}
+
+@media (max-width: 767px) {
+    .noVisible {
+        display: none;
+    }
+    .section-filter {
+        padding-left: 10px;
+    }
+    #main {
+        padding-bottom: 0px;
+    }
+    .last-year-TrOOP {
+        background-position: left 9px top 5px;
+    }
+    .last-year-hide {
+        background-position: left 11px top 0px;
+    }
+}

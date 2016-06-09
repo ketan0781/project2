@@ -1,0 +1,136 @@
+.ie8-graph {
+    display: block;
+}
+
+#myStathalf1,
+#myStathalf2,
+#myStathalf3,
+#myStathalf4,
+#myStathalf5,
+#myStathalf6,
+#myStathalf7,
+#myStathalf8,
+#myStathalf9 {
+    display: none;
+}
+
+.ie8-graph img {
+    position: relative;
+    padding-left: 10px;
+}
+.current-content .row1-box1{
+    padding:0px 15px 0px 15px;
+}
+.amount {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 40px;
+    width: 265px;
+}
+
+.spend-IE {
+    display: inline-block;
+    position: relative;
+    margin-left:20px;
+    font-size: 22px;
+    top: 0px;
+    right: 20px;
+}
+
+.spend-IE img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 18px;
+    left: 10px;
+}
+
+.ie8-graph p.info-para-IE {
+    position: relative;
+    top: -20px!important;
+    width: 255px;
+}
+
+span.chart-price-right {
+    top: 30px;
+    right:-80px;
+}
+
+span.chart-price-left {
+    top: 30px;
+}
+
+.graph-IE {
+    position: relative;
+    bottom: 20px;
+    right:5px;
+}
+
+.amount span {
+    font-size: 15px;
+    position: relative;
+    bottom: 14px;
+}
+
+#box1 p.expand-content {
+    margin-top: 60px;
+}
+
+.section-filter > div div label.on:before {
+    display: none;
+}
+.current-content .total-spend{
+    
+   top: 140px;
+}
+.leftArrow {
+    position: absolute;
+    left: -5px;
+    top: 5px;
+}
+
+.leftArrow2 {
+    position: absolute;
+    left: -5px;
+    top: 22px;
+}
+.current-content .row1-box2 p{
+    position: relative;
+    top: 5px!important;
+}
+
+.expand {
+    background-image: url("../images/down-arrow-ie.png");
+    width: 30px;
+    height: 30px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+
+.collapse {
+    background-image: url("../images/right-arrow-ie.png");
+    width: 30px;
+    height: 30px;
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+}   
+
+.nav-order-status {
+    margin-left: 30px;
+    padding-left: 38px;
+    background: url(../images/icon-deduct-status-ie.png) no-repeat top left;
+    background-size: 30px 33px;
+} 
+#breadcrumb span {
+    padding: 0 10px;
+    color: #9c9c9c;
+    background: url(../images/breadcrum-arrow-ie.png) no-repeat;
+    background-size: 5px 10px;
+    background-position: center center;
+}
+.basket {
+    display: none;
+}

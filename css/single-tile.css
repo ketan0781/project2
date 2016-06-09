@@ -1,0 +1,11 @@
+@media (max-width: 959px){
+.main-box p.tile-bottom-p {
+    display: block;
+    width: 100%;
+    margin: 12px auto;
+    padding: 0px 0px 10px 0px;
+}
+}
+p.tile-bottom-p {
+    padding-top: 10px;
+}

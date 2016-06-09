@@ -1,0 +1,17 @@
+
+.title h2 {
+    font-size: 24px;
+}
+
+#bottom-div h2 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+div#bottom-div p {
+    margin: 0px;
+    color: #646464;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}

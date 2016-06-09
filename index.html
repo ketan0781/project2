@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Caremark </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/global-nav.css">
+    <link rel="stylesheet" type="text/css" href="css/global/breadcrumb.css">
+    <link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/copay-coinsurance.css">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/main-IE8.css">
+<![endif]-->
+</head>
+
+<body>
+    <header>
+        <div id="linksToPages">
+            <img class="pageLink" src="images/icon-hamB.png" height="25px" width="25px">
+            <ul id="link-menu" class="display">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="primary-plan-only.html">
+                    <li>Primary Plan</li>
+                </a>
+                <a href="oneTile.html">
+                    <li>Single-tile & Deductible met</li>
+                </a>
+                <a href="network-spend.html">
+                    <li>Network Spend</li>
+                </a>
+                <a href="drug-specific.html">
+                    <li>Drug Specific</li>
+                </a>
+                <a href="inside-comp-medD.html">
+                    <li>Med-D</li>
+                </a>
+            </ul>
+        </div>
+        <div id="utility">
+            <div class="utility-links">
+                Welcome. Michael!
+                <span class="right">
+                      <a href="#">Profile</a>
+                      <a href="#">Messages</a>
+                      <a href="#">Help</a>
+                      <a href="#">Espanol</a>
+                       <span class="text-size">Change Text Size <span class="text-size-one">A</span> <span class="text-size-two">A</span> <span class="text-size-three">A</span></span>
+                <a href="#" class="last">Log Out</a>
+                </span>
+            </div>
+        </div>
+        <div class="logo-links">
+            <span class="logos">
+                <a href="#"><img src="images/global-nav/nys.png" height="50" width="200" alt="logo" border="0"  class="cobrand"/></a>
+                <a href="#"><img src="images/global-nav/logo.png" width="230" alt="logo" border="0" class="logo" /></a>
+            </span>
+            <span class="links">
+                <a href="#"  class="nav-rx-locator">Pharmacy<br>Locator</a>
+                <a href="#"  class="nav-order-status">Deductible Status<br><span>$242.96 applied</span></a>
+            <a href="#" class="nav-cdc">Check Drug Cost<br>Coverage</a>
+            </span>
+        </div>
+        <span class="icon-hamB"><img src="images/icon-hamB.png"></span>
+        <div id="menu-outer" class="displayB">
+            <div id="menu">
+                <ul>
+                    <li class="main-nav-home">
+                        <a href="index.html" class="">Home</a>
+                    </li>
+                    <li class="main-nav-rx">
+                        <a id="has-subnav" href="link-with-sub-nav-active.html" class="has-subnav ">Prescriptions</a>
+                        <ul>
+                            <li><a href="#">View  Order Status</a></li>
+                            <li><a href="#">View/Refill All Prescriptions</a></li>
+                            <li><a href="#">Manage Automatic Refills</a></li>
+                            <li><a href="#">Track Prescription Costs</a></li>
+                            <li><a href="#">Transfer a Prescription</a></li>
+                            <li><a href="#">Start Mail Service</a></li>
+                            <li><a href="#">Request a New Prescription</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-nav-plans">
+                        <a href="#" class="has-subnav active">Plan & Benefits</a>
+                        <ul>
+                            <li><a href="#">Plan Summary</a></li>
+                            <li><a href="#">Check Drug Cost & Coverage</a></li>
+                            <li><a href="#">Pharmacy Locator</a></li>
+                            <li><a href="#">Print Member ID Card</a></li>
+                            <li><a href="#">Covered Drug List (Formulary)</a></li>
+                            <li><a href="#">Plan Savings Opportunities</a></li>
+                            <li><a href="#">Print Plan Forms</a></li>
+                            <li><a href="#">Specialty Pharmacy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="search-cart">
+                    <a href="#">
+                        <div class="basket">
+                            <div class="badge">3</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-header-text">
+            < Site header goes here>
+        </div>
+        <div id="breadcrumb">
+            <a href="#" title="Home">Home</a><span></span>Plan & Benefits<span></span>Plan Summary
+        </div>
+    </header>
+    <div class="title">
+        <h1>Plan Summary</h1>
+        <div class="managed-content">See below for information about your member cost share, benefits, coverage and medicine exclusions. Based on your plan, you may be able to fill prescriptions for certain drugs through mail service or retail.
+        </div>
+    </div>
+    <div id="container">
+        <div class="sub-container sub-container1">
+            <div class="leftArrow collapse "></div>
+            <h3>Your Primary Benefit Plan</h3>
+            <p>Primary benefit plan is the primary, or main, provider of your prescription benefit(s). Your secondary benefit plan picks up where the primary leaves off.</p>
+        </div>
+        <!-- end .patient-filter -->
+        <div id="main" class="display">
+            <!--tab1 top div -->
+            <div class="section-filter">
+                <div>
+                    <div>
+                        <label class=" tab1 on">Your Current Usage</label>
+                        <label class="tab2">Your Copay and Coinsurance Details</label>
+                    </div>
+                </div>
+            </div>
+            <div class="main-box box1">
+                <div class="current-content subBox1">
+                    <!-- tab1-box1-row1=============================================================== -->
+                    <div id="box1" class="row1-box1">
+                        <img src="images/icon-phase22.png" class="box-icon" width="80" height="80">
+                        <h1>You are in the deductible phase</h1>
+                        <p>The amount applied to your deductible represents a combined medical and pharmacy spend.</p>
+                        <p class="expand-content display">Donec ligula nibh, lacinia et ultrices a, maximus non diam. In tristique libero at erat laoreet tempus. Vestibulum nec vulputate libero, sed tincidunt ipsum. Curabitur eu nisl dapibus, porttitor arcu sed, venenatis justo. Phasellus mollis nisl sit amet arcu congue condimentum. In non ex velit. Vivamus eget massa finibus metus posuere bibendum sit amet a dui.</p>
+                        <p class="expand-content display ">Nam vitae mattis tortor. Donec non felis non turpis ullamcorper facilisis quis at nulla. Phasellus finibus, enim ac maximus pellentesque, lacus lorem congue nibh, vel dignissim leo lectus eget nibh.</p>
+                        <p class="expand-content display">Nulla ultricies feugiat aliquet. Sed quis orci at eros vehicula aliquet. Quisque tortor lacus, vulputate congue congue ac, blandit ac erat. Phasellus pretium magna nisl.
+                        </p>
+                        <div class="see-less display"><span>Show Less</span><img src="images/collapse.png"></div>
+                        <div class="read-more"><span>Show More</span><img src="images/expand1.png"></div>
+                    </div>
+                    <div class="row1-box2">
+                        <h4>Individual Deductible</h4>
+                        <div id="myStathalf1" data-dimension="280" data-info="spend" data-width="25" data-fontsize="20" data-percent="85" data-fgcolor="#37BAAB" data-bgcolor="#e9e9e9" data-type="half" data-icon="fa-task">
+                            <div class="total-Amount"><span>$242</span><span>.96</span></div>
+                            <div class="total-spend">
+                                <span class="chart-price-left">$0</span><span class="chart-price-right">$300</span>
+                            </div>
+                            <p class="info-para">The deductible does not apply toward your maximum out-of-pocket.</p>
+                        </div>
+                        <!-- ie8 graph -->
+                        <div class="ie8-graph">
+                            <div class="amount">$242<span>.96</span>
+                                <div class="spend-IE">spend</div>
+                            </div>
+                            <div class="graph-IE"> <img src="images/graph-IE-11.png"></div>
+                            <div class="total-spend">
+                                <span class="chart-price-left">$0</span><span class="chart-price-right">$300</span>
+                            </div>
+                            <p class="info-para-IE">The deductible does not apply toward your maximum out-of-pocket.</p>
+                            <br>
+                        </div>
+                        <!-- ie8 graph end -->
+                    </div>
+                    <div class="row1-box3">
+                        <h4>Family Deductible</h4>
+                        <div id="myStathalf2" data-dimension="280" data-info="spend" data-width="25" data-fontsize="20" data-percent="30" data-fgcolor="#EA7601" data-bgcolor="#e9e9e9" data-type="half" data-icon="fa-task">
+                            <div class="total-Amount"><span>$315</span><span>.64</span></div>
+                            <div class="total-spend">
+                                <span class="chart-price-left">$0</span><span class="chart-price-right">$900</span>
+                            </div>
+                            <p class="info-para">The deductible does not apply toward your maximum out-of-pocket.</p>
+                        </div>
+                        <!-- ie8 graph -->
+                        <div class="ie8-graph">
+                            <div class="amount">$315<span>.64</span>
+                                <div class="spend-IE">spend</div>
+                            </div>
+                            <div class="graph-IE"> <img src="images/graph-IE-22.png"></div>
+                            <div class="total-spend">
+                                <span class="chart-price-left">$0</span><span class="chart-price-right">$900</span>
+                            </div>
+                            <p class="info-para-IE">The deductible does not apply toward your maximum out-of-pocket.</p>
+                            <br>
+                        </div>
+                        <!-- ie8 end -->
+                    </div>
+                    <p class="tile-bottom-p">Your usage resets monthly. Current cycle started on June 1, 2015. Mail, Retail, and Paper Claims are applied to your deductible.</p>
+                </div>
+                <div class="current-content subBox2">
+                    <!-- box1-row2=============================================================== -->
+                    <div id="box2" class="row1-box1">
+                        <img src="images/icon-wallet1.png" class="box-icon" width="80" height="80">
+                        <h1>You have not reached the max out-of-pocket </h1>
+                        <p>The amount applied to your deductible represents a combined medical and pharmacy spend.</p>
+                        <p class="expand-content display">Donec ligula nibh, lacinia et ultrices a, maximus non diam. In tristique libero at erat laoreet tempus. Vestibulum nec vulputate libero, sed tincidunt ipsum. Curabitur eu nisl dapibus, porttitor arcu sed, venenatis justo. Phasellus mollis nisl sit amet arcu congue condimentum. In non ex velit. Vivamus eget massa finibus metus posuere bibendum sit amet a dui.</p>
+                        <div class="see-less2 display"><span>Show Less</span> <img src="images/collapse.png"></div>
+                        <div class="read-more2"><span>Show More</span> <img src="images/expand1.png"></div>
+                    </div>
+                    <div class="row1-box2">
+                        <h4>Individual Max Out-of-Pocket</h4>
+                        <div id="myStathalf3" data-dimension="280" data-info="spend" data-width="25" data-fontsize="20" data-percent="0" data-fgcolor="#A7CE39" data-bgcolor="#e9e9e9" data-type="half" data-icon="fa-task">
+                            <div class="total-Amount"><span>$0</span><span>.00</span></div>
+                            <div class="total-spend">
+                                <span class="chart-price-left">$0</span><span class="chart-price-right">$1,200</span>
+                            </div>
+                            <p class="info-para">The deductible does not apply toward your maximum out-of-pocket.</p>
+                        </div>
+                        <!-- ie8 graph -->
+                        <div class="ie8-graph">
+                            <div class="amount">$300<span>.00</span>
+                                <div class="spend-IE">spend</div>
+                            </div>
+                            <div class="graph-IE"> <img src="images/graph-IE-33.png"></div>
+                            <div class="total-spend">
+                                <span class="chart-price-left">$0</span><span class="chart-price-right">$1,200</span>
+                            </div>
+                            <p class="info-para-IE">The deductible does <b>not</b> apply toward your maximum out-of-pocket.</p>
+                            <br>
+                        </div>
+                        <!-- end ie8 -->
+                    </div>
+                    <div class="row1-box3">
+                        <h4>Family Max Out-of-Pocket</h4>
+                        <div id="myStathalf4" data-dimension="280" data-info="spend" data-width="25" data-fontsize="20" data-percent="9" data-fgcolor="#93277E" data-bgcolor="#e9e9e9" data-type="half" data-icon="fa-task">
+                            <div class="total-Amount"><span>$400</span><span>.01</span></div>
+                            <div class="total-spend">
+                                <span class="chart-price-left">$0</span><span class="chart-price-right">$6,000</span>
+                            </div>
+                            <p class="info-para">The deductible does not apply toward your maximum out-of-pocket.</p>
+                        </div>
+                        <!-- ie8 graph -->
+                        <div class="ie8-graph">
+                            <div class="amount">$400<span>.01</span>
+                                <div class="spend-IE">spend</div>
+                            </div>
+                            <div class="graph-IE"> <img src="images/graph-IE-44.png"></div>
+                            <div class="total-spend">
+                                <span class="chart-price-left">$0</span><span class="chart-price-right">$6,000</span>
+                            </div>
+                            <p class="info-para-IE">The deductible does not apply toward your maximum out-of-pocket.</p>
+                            <br>
+                        </div>
+                        <!-- end ie8 -->
+                    </div>
+                    <p class="tile-bottom-p">Your usage resets monthly. Current cycle started on June 1, 2015. Mail, Retail, and Paper Claims are applied to your deductible.</p>
+                </div>
+                <div id="bottom-div">
+                    <h2>Your maximum allowable benefit</h2>
+                    <p>Your maximum allowable benefit is the ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="rTable">
+                        <div class="rTableRow">
+                            <div class="rTableHead t-box1">Plan type</div>
+                            <div class="rTableHead">Time period</div>
+                            <div class="rTableHead">Start month</div>
+                            <div class="rTableHead">Plan amount</div>
+                            <div class="rTableHead ">Applied amount</div>
+                            <div class="rTableHead ">Drugs</div>
+                            <div class="rTableHead">Applicable to</div>
+                        </div>
+                        <div class="rTableRow row2">
+                            <div class="rTableCell t-box1">Individual</div>
+                            <div class="rTableCell">Lifetime</div>
+                            <div class="rTableCell">January</div>
+                            <div class="rTableCell">$10,000.00</div>
+                            <div class="rTableCell">$242.96</div>
+                            <div class="rTableCell">Ql dl profile dcl 60</div>
+                            <div class="rTableCell">Mail, retail, in-network paper claims</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of tab2 top div -->
+        </div>
+        <!-- end of main1  -->
+        <div class="copy-tab hide">
+            <div class="title">
+                <h2>Copay/Co-Insurance</h2>
+                <div class="managed-content">Copay/Co-insurance amount may vary based on plan benefit specific parameters. Use the <a href="#">Check Drug Cost tool</a> to obtain an estimate for specific drug name. dosage form, and strength combination.
+                </div>
+            </div>
+            <div id="bottom-div">
+                <h2 class="mail-service ">Caremark Mall Service</h2>
+                <p>ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="container2">
+                    <div class="rowT">
+                        <div class="leftT top-box">
+                            <div class="header1">Drug Type</div>
+                        </div>
+                        <div class="rightT top-box">
+                            <div class="header2">Copay/Co-Insurance</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Prefrred Generic</div>
+                        </div>
+                        <div class="rightT">
+                            <div>$18.75</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Non-Preferred Generic</div>
+                        </div>
+                        <div class="rightT">
+                            <div>$18.75</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Formulary Generic</div>
+                        </div>
+                        <div class="rightT">
+                            <div>$18.75</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Non-Formulary Generic</div>
+                        </div>
+                        <div class="rightT">
+                            <div><a href="#">Check Drug Cost tool</a></div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Preferred Brand</div>
+                        </div>
+                        <div class="rightT">
+                            <div>35.0%, maximum $175.00</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Non-Preferred Brand</div>
+                        </div>
+                        <div class="rightT">
+                            <div>50.0%, maximum $300.00</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Formulary Brand</div>
+                        </div>
+                        <div class="rightT">
+                            <div>35.0%, maximum $175.00</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Non-Formulary Brand</div>
+                        </div>
+                        <div class="rightT">
+                            <div><a href="#">Check Drug Cost tool</a></div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="mail-service ">Retail Pharmacy</h2>
+                <p>ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="container2">
+                    <div class="rowT">
+                        <div class="leftT top-box">
+                            <div class="header1">Drug Type</div>
+                        </div>
+                        <div class="rightT top-box">
+                            <div class="header2">Copay/Co-Insurance</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Prefrred Generic</div>
+                        </div>
+                        <div class="rightT">
+                            <div>$7.50</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Non-Preferred Generic</div>
+                        </div>
+                        <div class="rightT">
+                            <div>$7.50</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Formulary Generic</div>
+                        </div>
+                        <div class="rightT">
+                            <div>$7.50</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Non-Formulary Generic</div>
+                        </div>
+                        <div class="rightT">
+                            <div><a href="#">Check Drug Cost tool</a></div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Preferred Brand</div>
+                        </div>
+                        <div class="rightT">
+                            <div>35.0%, maximum $70.00</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Non-Preferred Brand</div>
+                        </div>
+                        <div class="rightT">
+                            <div>50.0%, maximum $120.00</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Formulary Brand</div>
+                        </div>
+                        <div class="rightT">
+                            <div>35.0%, maximum $70.00</div>
+                        </div>
+                    </div>
+                    <div class="rowT">
+                        <div class="leftT">
+                            <div>Non-Formulary Brand</div>
+                        </div>
+                        <div class="rightT">
+                            <div><a href="#">Check Drug Cost tool</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of tab -->
+        <!-- =============================================================================================== -->
+        <div class="sub-container sub-container2">
+            <div class="leftArrow2 collapse"></div>
+            <h3>Your Secondary  Benefit Plan</h3>
+            <p>Secondary benefit plan is the primary, or main, provider of your prescription benefit(s) that provide additional coverage that your primary plan may not..</p>
+        </div>
+        <div id="main2" class="display ">
+            <div class="section-filter">
+                <div>
+                    <div>
+                        <label class="tab11 on">Your Current Usage</label>
+                        <label class="tab22">Your Copay and Coinsurance Details</label>
+                    </div>
+                </div>
+            </div>
+            <!-- box3 -->
+            <div id="bottom-div" class="plan-table">
+                <h2>Your initial coverage limit (ICL)</h2>
+                <p class="tile-bottom-p">Begins once a member has met the deductible phase and continues until the member reaches the coverage gap. This phase includes Medicare Part D covered prescription drug costs paid by all parties to the plan (such as Part D carrier, member, Extra Help, etc.). During this phase, the member is responsible for copays and/or coinsurance. After reaching the plan limit in total drug costs, the member moves to the next phase in the plan known as the coverage gap.</p>
+                <div class="rTable">
+                    <div class="rTableRow">
+                        <div class="rTableHead t-box1">Plan limit</div>
+                        <div class="rTableHead">Amount applied</div>
+                        <div class="rTableHead ">Amount remaining</div>
+                    </div>
+                    <div class="rTableRow row2">
+                        <div class="rTableCell t-box1">$2,960.00</div>
+                        <div class="rTableCell">$567.95</div>
+                        <div class="rTableCell">$2,392.05</div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-tab2 display">
+                <div class="title">
+                    <h2>Copay/Co-Insurance</h2>
+                    <div class="managed-content">Copay/Co-insurance amount may vary based on plan benefit specific parameters. Use the <a href="#">Check Drug Cost tool</a> to obtain an estimate for specific drug name. dosage form, and strength combination.
+                    </div>
+                </div>
+                <div id="bottom-div">
+                    <h2 class="mail-service ">Caremark Mall Service</h2>
+                    <p>ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="container2">
+                        <div class="rowT">
+                            <div class="leftT top-box">
+                                <div class="header1">Drug Type</div>
+                            </div>
+                            <div class="rightT top-box">
+                                <div class="header2">Copay/Co-Insurance</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Prefrred Generic</div>
+                            </div>
+                            <div class="rightT">
+                                <div>$18.75</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Non-Preferred Generic</div>
+                            </div>
+                            <div class="rightT">
+                                <div>$18.75</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Formulary Generic</div>
+                            </div>
+                            <div class="rightT">
+                                <div>$18.75</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Non-Formulary Generic</div>
+                            </div>
+                            <div class="rightT">
+                                <div><a href="#">Check Drug Cost tool</a></div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Preferred Brand</div>
+                            </div>
+                            <div class="rightT">
+                                <div>35.0%, maximum $175.00</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Non-Preferred Brand</div>
+                            </div>
+                            <div class="rightT">
+                                <div>50.0%, maximum $300.00</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Formulary Brand</div>
+                            </div>
+                            <div class="rightT">
+                                <div>35.0%, maximum $175.00</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Non-Formulary Brand</div>
+                            </div>
+                            <div class="rightT">
+                                <div><a href="#">Check Drug Cost tool</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="mail-service ">Retail Pharmacy</h2>
+                    <p>ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="container2">
+                        <div class="rowT">
+                            <div class="leftT top-box">
+                                <div class="header1">Drug Type</div>
+                            </div>
+                            <div class="rightT top-box">
+                                <div class="header2">Copay/Co-Insurance</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Prefrred Generic</div>
+                            </div>
+                            <div class="rightT">
+                                <div>$7.50</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Non-Preferred Generic</div>
+                            </div>
+                            <div class="rightT">
+                                <div>$7.50</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Formulary Generic</div>
+                            </div>
+                            <div class="rightT">
+                                <div>$7.50</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Non-Formulary Generic</div>
+                            </div>
+                            <div class="rightT">
+                                <div><a href="#">Check Drug Cost tool</a></div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Preferred Brand</div>
+                            </div>
+                            <div class="rightT">
+                                <div>35.0%, maximum $70.00</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Non-Preferred Brand</div>
+                            </div>
+                            <div class="rightT">
+                                <div>50.0%, maximum $120.00</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Formulary Brand</div>
+                            </div>
+                            <div class="rightT">
+                                <div>35.0%, maximum $70.00</div>
+                            </div>
+                        </div>
+                        <div class="rowT">
+                            <div class="leftT">
+                                <div>Non-Formulary Brand</div>
+                            </div>
+                            <div class="rightT">
+                                <div><a href="#">Check Drug Cost tool</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of tab -->
+        </div>
+        <!-- end of main2 div -->
+    </div>
+    <!-- end of container1 -->
+    <div class="footer-text">
+        < Site footer goes here>
+    </div>
+    <footer>
+        <div id="mobile">
+            <div class="mobile-inner">
+                <span><img src="images/global-nav/mobile_logo.png" border="0"></span>
+                <div class="download_app">
+                    CVS/caremark&#8482; app lets you manage your prescription benefits on the go. Download it now:
+                </div>
+                <div class="app_center_logo">
+                    <a href="#"><span><img src="images/global-nav/app_download.png" border="0"></span></a>
+                    <a href="#"><span><img src="images/global-nav/goog_download.png" border="0"></span></a>
+                </div>
+            </div>
+        </div>
+        <div id="footer_main">
+            <div class="footer_link_header">
+                <h4>Prescription</h4>
+                <ul>
+                    <li><a href="#">View  Order Status</a></li>
+                    <li><a href="#">View/Refill All Prescriptions</a></li>
+                    <li><a href="#">Manage Automatic Refills</a></li>
+                    <li><a href="#">Track Prescription Costs</a></li>
+                    <li><a href="#">Transfer a Prescription</a></li>
+                    <li><a href="#">Start Mail Service</a></li>
+                    <li><a href="#">Request a New Prescription</a></li>
+                </ul>
+            </div>
+            <div class="footer_link_header">
+                <h4>Plan & Benefits</h4>
+                <ul>
+                    <li><a href="#">Plan Summary</a></li>
+                    <li><a href="#">Check Drug Cost & Coverage</a></li>
+                    <li><a href="#">Pharmacy Locator</a></li>
+                    <li><a href="#">Print Member ID Card</a></li>
+                    <li><a href="#">Covered Drug List (Formulary)</a></li>
+                    <li><a href="#">Plan Savings Opportunities</a></li>
+                    <li><a href="#">Print Plan Forms</a></li>
+                    <li><a href="#">Specialty Pharmacy</a></li>
+                </ul>
+            </div>
+            <div class="footer_link_header ">
+                <h4 class="footer_non_header">Health Resources</h4>
+                <ul>
+                    <li><a href="#">Drug Reference & Interactions</a></li>
+                    <li><a href="#">About Generics</a></li>
+                    <li><a href="#">Email a Pharmacist</a></li>
+                    <li><a href="#">Pharmacist FAQs</a></li>
+                    <li><a href="#">Medication Safety Alerts</a></li>
+                </ul>
+            </div>
+            <div class="footer_link_header last">
+                <h4 class="footer_non_header">Need Help?</h4>
+                <ul>
+                    <li><a href="#">Contact CVS/caremark</a></li>
+                    <li><a href="#">Web Support FAQs</a></li>
+                    <li><a href="#">Questions about disposal of medications?</a></li>
+                </ul>
+                <h4 class="footer_non_header">About Us</h4>
+                <ul>
+                    <li><a href="#">About CVS/caremark</a></li>
+                </ul>
+                <h4 class="footer_non_header">Search</h4>
+                <div class="search-box">
+                    <form>
+                        <input type="text" placeholder="Search Meds, Plan Info...">
+                        <input type="submit" value="">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="legal_row">
+            <div class="legal_inner">
+                <div>Copyright &copy; 2015 CVS/caremark. All rights reserved</div>
+                <div><a href="about-us/terms-conditions.html">Terms and conditions</a></div>
+                <div><a href="about-us/privacy-policy.html">Privacy Policy</a></div>
+                <div><a href="about-us/accessibility.html">Accessibility</a></div>
+                <div class="last"><a href="#">Member Rights & Responsibilities</a></div>
+            </div>
+        </div>
+        <div class="footer-branding-line">
+            106-34407b 051215
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.circliful.js"></script>
+    <script type="text/javascript" src="js/jquery-circleful-IE9.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
